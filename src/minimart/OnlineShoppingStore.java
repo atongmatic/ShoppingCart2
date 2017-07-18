@@ -27,9 +27,9 @@ public class OnlineShoppingStore {
         System.out.println("What would you like to buy ?");
     }
     
-    public void atong(){
-        System.out.println("What is the JAVA");
-    }
+    //public void atong(){
+    //    System.out.println("What is the JAVA");
+    //}
     
     public void getInputCustomer() {
     String input;
