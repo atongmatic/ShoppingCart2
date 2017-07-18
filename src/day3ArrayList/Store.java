@@ -6,17 +6,16 @@ public class Store {
     private ArrayList<Item> items;
     
     public void store(){
-        items = new ArrayList<>();
+        items = new ArrayList();
     }
     
-    public void setArray(){
-        String[] product = {"iPhone","Samsung","Huawei"};
-        ArrayList<String> myArrayList = new ArrayList(Arrays.asList(product));
-    }
+    public void addItem(Item item) {
+        this.items.add(item);
     }
 
-    public void addItem(Item items){
-        items.add("");
+    public void setArray() {
+        String[] product = {"iPhone", "Samsung", "Huawei"};
+        ArrayList<String> myArrayList = new ArrayList(Arrays.asList(product));
     }
-    
+ 
 }
